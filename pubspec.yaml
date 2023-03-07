@@ -36,9 +36,16 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  #showing the rating bar
   flutter_rating_bar: ^4.0.1
+  #for showing cached image
   cached_network_image: ^3.2.3
+  #for creating a material color from a normal color
   material_color_gen: ^2.0.0
+  #for scrolling
+  smooth_page_indicator: ^1.0.1
+  #for animations
+  animate_do: ^3.0.2
 
 dev_dependencies:
   flutter_test:
@@ -50,6 +57,7 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
+  flutter_native_splash: ^2.2.19
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -63,8 +71,9 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets/
+    - assets/intro/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

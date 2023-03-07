@@ -5,4 +5,6 @@ final mainMaterialColor =
     const Color.fromRGBO(112, 103, 253, 1).toMaterialColor();
 const mainColor = Color.fromRGBO(112, 103, 253, 1);
 
-const scaffoldBackgroundColor = Color.fromARGB(255, 250, 239, 255);
+const scaffoldBackgroundColor = Color.fromARGB(255, 226, 226, 226);
+
+const primaryColor = Colors.red;

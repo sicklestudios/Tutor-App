@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:tutorapp/colors.dart';
+import 'package:tutorapp/features/intro/intro_screen.dart';
 import 'package:tutorapp/students/search_screen.dart';
-import 'package:tutorapp/teacher/teacherModel/teacher_model.dart';
-import 'package:tutorapp/students/search_teacher_profile_info.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,9 +16,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         title: 'Tutor App',
         theme: ThemeData(
-          primarySwatch: mainMaterialColor,
+          // useMaterial3: true,
+          primarySwatch: primaryColor,
         ),
         debugShowCheckedModeBanner: false,
-        home: SearchScreen());
+        home: IntroPage());
   }
 }
